@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: mirage;
+    src: url(fontes/Hindia.otf) format(opentype);
+}
+ :root {
+    --cor01: #fac05c;
+    --cor02: #FFA300;
+    --cor03: #696969;
+    --cor04: #202020;
+ }
+
+
+
+body {
+    background-color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+}
+header {
+    background-image: linear-gradient(to bottom, #fac05c, #FFA300);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    font-family: mirage;
+    font-size: 4em;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: var(--cor02);
+    padding: 10px;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    transition-duration: 0.5s;
+}
+nav a:hover {
+    background-color: #202020;
+    padding: 11px;
+    color: #FFA300;
+    text-decoration: underline;
+    
+}
+main {
+    min-width: 300px;
+    max-width: 800px;
+    background-color: white;
+    margin: 0px auto;
+    padding:10px 20px;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+main h1, h2 {
+    background-image: linear-gradient(to right, #fac05c, transparent );
+    font-family: mirage;
+    color: #202020;
+    padding-left: 10px;
+    padding-top: 2px;
+     
+}
+main p {
+    text-indent: 20px;
+    text-align: justify;
+}
+footer {
+    margin-top: 10px;
+    background-color: var(--cor04);
+    padding: 20px;
+    columns: 2;
+    color: #fac05c;
+    
+}
