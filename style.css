@@ -81,8 +81,6 @@ footer {
     
 }
 picture {
-    display: block;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
     
 }
