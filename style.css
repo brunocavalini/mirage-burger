@@ -80,6 +80,10 @@ footer {
     color: #fac05c;
     
 }
-source {
-    margin-right: 20px;
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
